@@ -31,25 +31,25 @@ int main() {
 
 // Área para exibição dos dados da cidade
 
-  printf("Carta %d\n", codigo1);
-  printf("Estado %c\n", estado1);
-  printf("Codigo %s\n", carta1);
-  printf("Cidade %s\n", cidade1);
-  printf("Populacao %d\n", populacao);
-  printf("Area %.2f\n", area);
-  printf("PIB %.2f\n", pib);
-  printf("Pontos Turisticos %d\n", pontos_turisticos);
+  printf("Carta - %d\n", codigo1);
+  printf("Estado - %c\n", estado1);
+  printf("Codigo - %s\n", carta1);
+  printf("Cidade - %s\n", cidade1);
+  printf("Populacao - %d\n", populacao);
+  printf("Area - %.2f\n", area);
+  printf("PIB - %.2f\n", pib);
+  printf("Pontos Turisticos - %d\n", pontos_turisticos);
 
   printf("\n");
 
-  printf("Carta %d\n", codigo2);
-  printf("Estado %c\n", estado2);
-  printf("Codigo %s\n", carta2);
-  printf("Cidade %s\n", cidade2);
-  printf("Populacao %d\n", populacao2);
-  printf("Area %.2f\n", area2);
-  printf("PIB %.2f\n", pib2);
-  printf("Pontos Turisticos %d\n", pontos_turisticos2);
+  printf("Carta - %d\n", codigo2);
+  printf("Estado - %c\n", estado2);
+  printf("Codigo - %s\n", carta2);
+  printf("Cidade - %s\n", cidade2);
+  printf("Populacao - %d\n", populacao2);
+  printf("Area - %.2f\n", area2);
+  printf("PIB - %.2f\n", pib2);
+  printf("Pontos Turisticos - %d\n", pontos_turisticos2);
 
 
 return 0;
