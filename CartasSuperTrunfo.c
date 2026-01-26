@@ -47,7 +47,7 @@ printf("Carta - %d\n", carta1);
   printf("Area - %f\n", area);
   printf("PIB - %f\n", pib);
   printf("Pontos Turisticos - %d\n", pontosturisticos);
-  printf("Densidade Populacional - %f\n", densidade);
+  printf("Densidade Populacional - %.2f\n", densidade);
   printf("PIB per Capita - %f\n", pibpercapita);
   printf("Superpoder da Carta 1 - %.2f\n", superpoder);
 
@@ -61,7 +61,7 @@ printf("Carta - %d\n", carta1);
   printf("Area - %f\n", area2);
   printf("PIB - %f\n", pib2);
   printf("Pontos Turisticos - %d\n", pontosturisticos2);
-  printf("Densidade Populacional - %f\n", densidade2);
+  printf("Densidade Populacional - %.2f\n", densidade2);
   printf("PIB per Capita - %f\n", pibpercapita2);
   printf("Superpoder da Carta 2 - %.2f\n", superpoder2);
 
@@ -74,7 +74,7 @@ printf("Carta - %d\n", carta1);
   printf("densidade populacional carta1: %.2f é menor que densidade populacional carta2: %.2f ? %d\n", densidade, densidade2, (densidade < densidade2));
   printf("pib per capita carta1: %f é maior que pib per capita carta2: %f ? %d\n", pibpercapita, pibpercapita2, (pibpercapita > pibpercapita2));
   printf("superpoder carta1: %.2f é maior que superpoder carta2: %.2f ? %d\n", superpoder, superpoder2, (superpoder > superpoder2));  
-  
+
   return 0;
 
 }
